@@ -76,4 +76,6 @@ rect(x, y, w, h, c) {
     }
     }
 }
+// def function the bibliotec public
+window.th = th;
 
