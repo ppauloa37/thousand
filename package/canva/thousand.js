@@ -1,5 +1,5 @@
 /** create function */
-
+var th = (function () {
 var th = {
 canvas: null, 
 p: null,
@@ -84,10 +84,20 @@ rect: rect,
         console.error("ctx cannot define");
     }
     }
+ window.th = {
+ ellipse,
+ cube,
+ text,
+ ctx,
+ rect,
+ init,
+ 
+ 
+ 
+};
 }
 // def function the bibliotec public
-
-window.th = th;
+}
 
 
 
