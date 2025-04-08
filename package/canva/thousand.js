@@ -91,11 +91,10 @@ rect: rect,
  ctx,
  rect,
  init,
- 
- 
- 
-};
 }
+
+})
+
 // def function the bibliotec public
 }
 
