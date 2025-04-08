@@ -23,7 +23,11 @@ rect(x, y, w, h, c) {
         this.p.fillStyle = c;
         this.p.fillRect(x, y, w, h);
     } else {
-        console.error("ctx its not define");
+        console.error("ctx its not define", {
+ctx: ctx,
+rect: rect,
+         
+        });
     }
 },
     text(txt, x, y, c, tmh) {
