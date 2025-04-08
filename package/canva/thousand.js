@@ -84,14 +84,8 @@ rect: rect,
         console.error("ctx cannot define");
     }
     }
- window.th = {
- ellipse,
- cube,
- text,
- ctx,
- rect,
- init,
-}
+ window.th = th;
+ return th;
 
 })
 
