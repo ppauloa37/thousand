@@ -1,6 +1,10 @@
+/** create function */
+var th = (function () {
 var th = {
 canvas: null, 
 p: null,
+
+/* init**/
 init(Idcanvaid) {
 canvas = document.getElementById(Idcanvaid);
  if (!canvas) {
@@ -9,6 +13,7 @@ return;
  }
 
 },
+ /** prpietwes**/
  ctx(typecan) {
     if (typecan.toLowerCase() === "3d" || typecan === "3D") {typecan === "webgl"}
     this.p = canvas.getContext(typecan);
@@ -79,10 +84,20 @@ rect: rect,
         console.error("ctx cannot define");
     }
     }
+ window.th = {
+ ellipse,
+ cube,
+ text,
+ ctx,
+ rect,
+ init,
+ 
+ 
+ 
+};
 }
 // def function the bibliotec public
-
-window.th = th;
+}
 
 
 
