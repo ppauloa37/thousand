@@ -4,7 +4,7 @@ p: null,
 init(Idcanvaid) {
 canvas = document.getElementById(Idcanvaid);
  if (!canvas) {
-console.error("Object input element cannot find canvas");
+console.error("Object element cannot find canvas");
 return;
  }
 
