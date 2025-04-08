@@ -4,7 +4,7 @@ p: null,
 init(Idcanvaid) {
 canvas = document.getElementById(Idcanvaid);
  if (!canvas) {
-console.error("Object element cannot find canvas");
+console.error("Object input element cannot find canvas");
 return;
  }
 
@@ -23,11 +23,7 @@ rect(x, y, w, h, c) {
         this.p.fillStyle = c;
         this.p.fillRect(x, y, w, h);
     } else {
-        console.error("ctx its not define", {
-ctx: ctx,
-rect: rect,
-         
-        });
+        console.error("ctx its not define");
     }
 },
     text(txt, x, y, c, tmh) {
@@ -82,8 +78,4 @@ rect: rect,
 }
 // def function the bibliotec public
 window.th = th;
-
-window.th = th;
-
-
 
