@@ -81,7 +81,6 @@ rect: rect,
     }
 }
 // def function the bibliotec public
-window.th = th;
 
 window.th = th;
 
