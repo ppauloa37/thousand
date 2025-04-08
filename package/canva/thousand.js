@@ -81,3 +81,7 @@ rect: rect,
     }
 }
 
+window.th = th;
+
+
+
